@@ -60,3 +60,26 @@ function calCaption(calDate) {
       thisYear + "</caption>";
 
 }
+
+
+//Example of a for loop
+var htmlCode = "<tr>";
+for (var i = 1; i <= 4; i++) {
+   htmlCode += "<td>" + i + "</td>";
+}
+htmlCode += "</tr>";
+
+//Example of a while loop
+var htmlCode = "<tr>";
+var i = 1;
+while (i <= 4) {
+   htmlCode += "<td>" + i + "</td>";
+}
+
+//Example of a do/while
+var htmlCode = "<tr>";
+var i = 1;
+do {
+   htmlCode += "<td>" + i + "</td>";
+} while (i <= 4);
+htmlCode += "</tr>";
